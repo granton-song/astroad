@@ -13,7 +13,7 @@
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts node -r tsconfig-paths/register node_modules/payload/dist/bin/index.js generate:types"
   },
   "dependencies": {
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "payload": "^1.15.6",
